@@ -1,10 +1,13 @@
 import CommandLine from "./components/CommandLine"
+import Logger from "./components/Logger";
+import {Rodape} from "./styles/styles"
+
 function App() {
   return (
-    <>
-      <h1>Here we are!</h1>
+    <Rodape>
       <CommandLine/>
-    </>
+      <Logger />
+    </Rodape>
   );
 }
 
