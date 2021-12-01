@@ -6,6 +6,6 @@ Follow me on [Linkedin](https://linkedin.com/in/opaulo) too!!
 
 ## Getting started
 
-At the first momente, this project deals about a engineering drawing software. In the course of the work, we'll try to develop a structural analisys and calculation software. 
+At the first moment, this project deals about a engineering drawing software. In the course of the work, we'll try to develop a structural analisys and calculation software. 
 
 So, let's code!

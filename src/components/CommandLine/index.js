@@ -1,17 +1,7 @@
-import {useState} from 'react'
 import {CL_area, CL} from './styles.js'
+import { comandos } from '../../functions/index.js'
 
 export default function CommandLine(){
-    
-    const comando = (e) => {
-        if(e.key === "Enter"){
-            alert("Foi o enter")
-        }
-        if(e.key === "Escape"){
-            alert("Foi o esc")
-        }
-        
-    }
 
     return(
         <>
@@ -19,7 +9,7 @@ export default function CommandLine(){
                 <CL
                     type="text" 
                     placeholder="Digite aqui o comando"
-                    onKeyUp={comando}
+                    onKeyUp={comandos}
                 />
             </CL_area>
         </>
