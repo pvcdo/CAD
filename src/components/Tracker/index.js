@@ -5,8 +5,8 @@ export default function Logger(){
     return(
         <>
             <Lg_area>
-                <Lg id="logger">
-
+                <Lg>
+                    
                 </Lg>
             </Lg_area>
         </>
